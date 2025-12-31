@@ -126,9 +126,12 @@ Intex has connected over 70,000+ qualified trade buyers from more than 40 countr
           <Testimonials />
         </RevealWrapper>
 
-        <RevealWrapper text="BUYERS." subtext="REG_ID // 08" type="center-split-h" amount={0.2}>
+        {/* <RevealWrapper text="BUYERS." subtext="REG_ID // 08" type="center-split-h" amount={0.2}>
           <BuyerCategories />
-        </RevealWrapper>
+        </RevealWrapper> */}
+
+                  <BuyerCategories />
+
 
         <RevealWrapper text="PARTNERS." subtext="REG_ID // 09" type="bands-h" amount={0.4}>
           <Partners />
