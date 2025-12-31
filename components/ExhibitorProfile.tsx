@@ -55,7 +55,7 @@ const ExhibitorProfile: React.FC = () => {
               muted 
               loop 
               playsInline
-              className="absolute inset-0 w-full h-full object-cover brightness-125 contrast-125 grayscale"
+              className="absolute inset-0 w-full h-full object-cover brightness-125 contrast-125 "
             >
               <source src="https://www.wofxworldexpo.com/assests/WOFX-Short-Video-2025.mp4" type="video/mp4" />
             </video>
@@ -67,7 +67,7 @@ const ExhibitorProfile: React.FC = () => {
                 whileInView={{ letterSpacing: "0.05em", opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 2, ease: [0.16, 1, 0.3, 1] }}
-                className="text-[6vw] md:text-[4.5vw] font-serif font-black leading-none text-transparent whitespace-nowrap text-center uppercase m-0 p-0 italic"
+                className="text-[6vw] md:text-[4.5vw] font-serif font-black leading-none text-transparent whitespace-nowrap text-center uppercase m-0 p-0 "
                 style={{ WebkitTextStroke: '2px black' }}
               >
                 UPCOMING EXHIBITIONS
